@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vestido de Gala - Edith Yalli</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fdfdfd;
+      color: #333;
+      text-align: center;
+    }
+
+    header {
+      background: linear-gradient(to right, #d63384, #6f42c1);
+      color: white;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2em;
+    }
+
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .galeria img {
+      width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    .galeria img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background: #6f42c1;
+      color: white;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Vestido de Gala</h1>
+    <p>Diseños elegantes para ocasiones especiales ✨</p>
+  </header>
+
+  <section class="galeria">
+    <img src="https://via.placeholder.com/300x400?text=Vestido+1" alt="Vestido de gala 1">
+    <img src="https://via.placeholder.com/300x400?text=Vestido+2" alt="Vestido de gala 2">
+    <img src="https://via.placeholder.com/300x400?text=Vestido+3" alt="Vestido de gala 3">
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Edith Yalli - Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
